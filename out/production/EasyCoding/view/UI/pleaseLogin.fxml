@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PleaseLogin">
+    <children>
+        <Label layoutX="54.0" layoutY="56.0" text="要先登录呦，亲！">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button layoutX="130.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+        <ImageView fx:id="okay" fitHeight="40.0" fitWidth="40.0" layoutX="130.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#login">
+            <image>
+                <Image url="@../icon/喜欢.png" />
+            </image>
+        </ImageView>
+    </children>
+</Pane>
+

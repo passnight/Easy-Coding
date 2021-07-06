@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReMarkPstdController">
+    <children>
+        <Label layoutX="42.0" layoutY="36.0" text="请再确认一遍密码呦，亲！">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="29.0" layoutY="93.0" text="新密码：">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="ptsdField" layoutX="85.0" layoutY="91.0" prefHeight="23.0" prefWidth="188.0" />
+        <Button fx:id="okay" layoutX="77.0" layoutY="148.0" mnemonicParsing="false" text="确认">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="cancel" layoutX="169.0" layoutY="148.0" mnemonicParsing="false" text="取消">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</Pane>

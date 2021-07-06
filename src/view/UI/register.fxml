@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="338.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterController">
+    <children>
+        <ImageView fitHeight="397.0" fitWidth="600.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icon/ss.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="167.0" layoutY="19.0" text="Welcome to Easy-Coding!!" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="167.0" layoutY="143.0" text="邮箱：" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="167.0" layoutY="178.0" text="密码：" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField layoutX="247.0" layoutY="139.0" prefHeight="29.0" prefWidth="190.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="ptsd" layoutX="247.0" layoutY="173.0" prefHeight="29.0" prefWidth="190.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Button fx:id="log" layoutX="199.0" layoutY="292.0" mnemonicParsing="false" onAction="#register" text="确认注册">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <RadioButton layoutX="262.0" layoutY="67.0" mnemonicParsing="false" text="邮箱" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </RadioButton>
+        <RadioButton layoutX="347.0" layoutY="67.0" mnemonicParsing="false" text="手机号" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </RadioButton>
+        <Label layoutX="167.0" layoutY="67.0" text="注册方式：" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="167.0" layoutY="217.0" text="确认密码：" textFill="#fffcfc">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="167.0" layoutY="255.0" text="验证码：" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="ptsdAgain" layoutX="247.0" layoutY="210.0" prefHeight="29.0" prefWidth="190.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="248.0" layoutY="248.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Button layoutX="339.0" layoutY="292.0" mnemonicParsing="false" onAction="#cancel" text="取消注册">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="454.0" layoutY="249.0" mnemonicParsing="false" text="发送验证码">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Button>
+        <TextField fx:id="nameField" layoutX="247.0" layoutY="102.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="167.0" layoutY="107.0" text="用户名：" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+    </children>
+</Pane>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="338.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+    <children>
+        <ImageView fitHeight="397.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icon/ss.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="167.0" layoutY="53.0" text="Welcome to Easy-Coding!!" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="167.0" layoutY="143.0" text="用户名：" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="167.0" layoutY="207.0" text="密码：" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="nameField" layoutX="223.0" layoutY="137.0" prefHeight="23.0" prefWidth="214.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="ptsd" layoutX="223.0" layoutY="203.0" prefHeight="29.0" prefWidth="214.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Hyperlink layoutX="223.0" layoutY="232.0" onAction="#register" text="注册账户" underline="true">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Hyperlink>
+        <Hyperlink layoutX="385.0" layoutY="232.0" onAction="#findPtsd" text="找回密码" underline="true">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Hyperlink>
+        <Button fx:id="log" layoutX="306.0" layoutY="271.0" mnemonicParsing="false" onAction="#login" text="登录">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</Pane>
