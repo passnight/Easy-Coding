@@ -1,25 +1,37 @@
-####主要页面：
-* Attention 关注
-* Blog 博客
-* Forum 论坛
-* Login 登录
-* Main 首页
-* Message 消息
-* Post 发帖/文章
-* Register 注册
-#####已完成功能：
-1. <font color=#FF0000>页面跳转</font>
-2. 注册登录（保存信息、查询账户、读取信息、退出登录）
-3. 博客（撰写、存储、读取、热门、简单翻页）
-4. 信息（修改个人信息、文章草稿、博客信息保存、个人信息保存）
-3. <font color=#FF0000>详情页</font>
-6. <font color=#FF0000>关注（个人中心显示、跳转、翻页；博客中心显示
-、跳转、翻页；论坛中心显示、跳转、翻页）</font>
-1. <font color=#FF0000>论坛（翻页、热门、关注、跳转详情）</font>
-3. <font color=#FF0000>回答/评论</font>
+# Easy Coding
 
-#####计划完成：
-2. ~~头像~~
-4. <font color=#FF0000>~~搜索页~~</font>
-7. 点赞
+#### 介绍
+软工课程作业
 
+#### 软件架构
+软件架构说明
+
+
+#### 安装教程
+
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+#### 使用说明
+
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+#### 参与贡献
+
+1.  Fork 本仓库
+2.  新建 Feat_xxx 分支
+3.  提交代码
+4.  新建 Pull Request
+
+
+#### 特技
+
+1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
+2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
+3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
+4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
+5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
+6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
