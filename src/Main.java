@@ -15,7 +15,7 @@ public class Main extends Application {
         IoModel.initialize();
         BlogModel.initialize();
         PostModel.initialize();
-
+        int useless;
         Common.overStage=primaryStage;
 
         Parent root = FXMLLoader.load(getClass().getResource("view/UI/main.fxml"));
